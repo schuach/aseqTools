@@ -1,0 +1,147 @@
+003257598 LDR   L 00000nmm#a2200000#c#4500
+003257598 001   L AC03263537
+003257598 003   L AT-OBV
+003257598 005   L 20170625021100.0
+003257598 007   L co#|||||||||||
+003257598 008   L 010927|2000####gw#########|########ger#u
+003257598 009   L AC03263537
+003257598 015   L $$aOeBC$$2oeb
+003257598 020   L $$a3803215005
+003257598 035   L $$a(DE-599)OBVAC03263537
+003257598 040   L $$aUBG$$bger$$dVBK$$erakwb
+003257598 041   L $$ager
+003257598 044   L $$cXA-DE
+003257598 084   L $$a77.14$$2bkl$$9O: Automatisch aus GBV_2011-10 2012-06-05
+003257598 084   L $$aCU 2563$$2rvk$$9O: Automatisch aus BVB_2013-06 2013-05-02
+003257598 24500 L $$aSigmund Freud und die Geheimnisse der Seele$$hElektronische Ressource$$b[tiefe Einsichten in das Unbewusste]$$c[Projektmanagement: Lisa Löschner. Text: Kathie Tietz ... Sigmund-Freud-Gesellschaft: Texte, themat. Selektion, inhaltiches Konzept, wissenschaftl. Recherche: Wilhelm Burian ...]
+003257598 264 1 L $$aMünchen$$bNavigo [u.a.]$$c2000
+003257598 300   L $$a1 CD-ROM$$bfarb., mit Ton$$c12 cm$$eInstallationsanleitung in Booklet
+003257598 340   L $$aCD-ROM
+003257598 538   L $$iSystemvoraussetzungen$$aWin95/98, Nt 4.0; Pentium II, 200 MHz; 32 MB freier Arbeitsspeicher; Grafik: 640 x 480 x 32k; CD-ROM Geschwindigkeit: 12-fach; Audio: 16 Bit; QuickTime. MacOS 7.6.1 oder höher, PPC 603, 200 MHz; 32 MB freier Arbeitsspeicher; Grafik: 640 x 480 x 32k; CD-ROM Geschwindigkeit: 12-fach; Audio: 16 Bit; QuickTime
+003257598 68900 L $$aFreud, Sigmund$$d1856-1939$$Dp$$0(DE-588)118535315
+003257598 68901 L $$aPsychoanalyse$$Ds$$0(DE-588)4047689-3
+003257598 68902 L $$aCD-ROM$$Af
+003257598 6890  L $$5AT-OBV$$5UBGKTZ
+003257598 68910 L $$aFreud, Sigmund$$d1856-1939$$Dp$$0(DE-588)118535315
+003257598 68911 L $$aBiographie$$Af
+003257598 68912 L $$aCD-ROM$$Af
+003257598 6891  L $$5AT-OBV$$5UBGKTZ UBKZEL
+003257598 7001  L $$aLöschner, Lisa$$4edt
+003257598 7001  L $$aTietz, Kathie$$4ctb
+003257598 7102  L $$aSigmund-Freud-Gesellschaft$$0(DE-588)1045774-4$$4ctb
+003257598 9701  L $$c05
+003257598 9740s L $$F030$$Aa|1dcr|||||37
+003257598 9740s L $$F050$$A||||||||d|||||
+003257598 9740s L $$F051$$Am||||||
+003257598 CAT   L $$aUBGAWE$$b20$$c20010927$$lACC01$$h1323
+003257598 CAT   L $$aUBGHUE$$b20$$c20011128$$lACC01$$h1540
+003257598 CAT   L $$aUBGKTZ$$b20$$c20011203$$lACC01$$h0820
+003257598 CAT   L $$aONBSUW$$b20$$c20020805$$lACC01$$h1108
+003257598 CAT   L $$aONBRIA$$b20$$c20030305$$lACC01$$h0753
+003257598 CAT   L $$aONBKUM$$b20$$c20030305$$lACC01$$h1423
+003257598 CAT   L $$aONBKUM$$b20$$c20030305$$lACC01$$h1425
+003257598 CAT   L $$aONBBOM$$b20$$c20030317$$lACC01$$h1315
+003257598 CAT   L $$aUBKSAG$$b20$$c20091014$$lACC01$$h0945
+003257598 CAT   L $$aUBKZEL$$b20$$c20091020$$lACC01$$h1530
+003257598 CAT   L $$aUBKZEL$$b20$$c20091020$$lACC01$$h1530
+003257598 CAT   L $$aUBKZEL$$b20$$c20091020$$lACC01$$h1530
+003257598 CAT   L $$aOBVSYS1$$b20$$c20101214$$lACC01$$h1340
+003257598 CAT   L $$aBATCH$$b20$$c20101214$$lACC01$$h1541
+003257598 CAT   L $$aBATCH-UPD$$b20$$c20120511$$lACC01$$h2303
+003257598 CAT   L $$aBATCH-UPD$$b20$$c20120605$$lACC01$$h1752
+003257598 CAT   L $$aBATCH-UPD$$b20$$c20130502$$lACC01$$h1852
+003257598 CAT   L $$aVBKALB$$b20$$c20140605$$lACC01$$h1452
+003257598 CAT   L $$aVBKALB$$b20$$c20140605$$lACC01$$h1525
+003257598 CAT   L $$aBATCH-UPD$$b20$$c20170625$$lACC01$$h0211
+004558441 LDR   L 00000nms#a2200000#cb4500
+004558441 001   L AC04573196
+004558441 003   L AT-OBV
+004558441 005   L 20170726140900.0
+004558441 007   L co#|||||||||||
+004558441 008   L 050714|2005####gw#########|########ger#u
+004558441 009   L AC04573196
+004558441 015   L $$z04,N42,0524$$2dnb
+004558441 015   L $$a05,A28,0714$$2dnb
+004558441 020   L $$a3898534855$$c: EUR 15.00 (freier Pr.)
+004558441 0243  L $$a9783898534857
+004558441 035   L $$a(DE-599)OBVAC04573196
+004558441 040   L $$aZBM$$bger$$c292$$dUBW$$erakwb
+004558441 041   L $$ager
+004558441 044   L $$cXA-DE-BE
+004558441 084   L $$aR-20$$2nlm
+004558441 084   L $$a500$$qDE-101$$2sdnb
+004558441 084   L $$a30.00$$2bkl$$9O: Automatisch aus GBV_2011-10 2012-06-15
+004558441 084   L $$a30.01$$2bkl$$9O: Automatisch aus GBV_2011-10 2012-06-15
+004558441 084   L $$aTB 3100$$2rvk$$9O: Automatisch aus BVB_2013-06 2013-05-09
+004558441 084   L $$aWB 3100$$2rvk$$9O: Automatisch aus BVB_2013-06 2013-05-09
+004558441 084   L $$aUB 3100$$2rvk$$9O: Automatisch aus BVB_2013-06 2013-05-09
+004558441 24500 L $$aLexikon der Naturwissenschaftler$$hElektronische Ressource$$bAstronomen, Biologen, Chemiker, Geologen, Mediziner, Physiker
+004558441 26431 L $$aBerlin$$bDirectmedia Publ.$$c2005
+004558441 300   L $$a1 CD-ROM$$bfarb.$$c12 cm, in Behältnis 19 x 14 x 1 cm$$eBeil. (31 S.)
+004558441 340   L $$aCD-ROM
+004558441 4901  L $$aDigitale Bibliothek$$v85
+004558441 500   L $$aTitel auf dem Behältnis
+004558441 538   L $$aSystemvoraussetzungen PC: ab 486; 32 MB RAM; ; CD-ROM-Laufwerk; Grafikkarte ab 640 x 480 Pixel, 256 Farben ; MS Windows (95, 98, ME, NT, 2000 oder XP);
+004558441 538   L $$aSystemvoraussetzungen Mac: 128 MB RAM; ; CD-ROM-Laufwerk ; ab MacOS 10.2;
+004558441 68900 L $$aNaturwissenschaftler$$Ds$$0(DE-588)4041423-1
+004558441 68901 L $$aWörterbuch$$Af
+004558441 68902 L $$aCD-ROM$$Af
+004558441 6890  L $$5AT-OBV$$5DDB
+004558441 830 0 L $$w(AT-OBV)AC02207569$$v85$$9O:1
+004558441 9701  L $$c25
+004558441 9740s L $$F030$$Aa|1ucr|||||37
+004558441 9740s L $$F050$$A||||||||d|||||
+004558441 9740s L $$F052$$Aj||||||a|||||||
+004558441 CAT   L $$aZBMC33$$b20$$c20050714$$lACC01$$h1429
+004558441 CAT   L $$aUBGHUE$$b20$$c20060725$$lACC01$$h1517
+004558441 CAT   L $$aUBWMIK$$b20$$c20070430$$lACC01$$h1010
+004558441 CAT   L $$aBATCH-UPD$$b20$$c20120512$$lACC01$$h0017
+004558441 CAT   L $$aBATCH-UPD$$b20$$c20120615$$lACC01$$h1730
+004558441 CAT   L $$aBATCH-UPD$$b20$$c20130509$$lACC01$$h1901
+004558441 CAT   L $$aBATCH-UPD$$b20$$c20170726$$lACC01$$h1409
+003473485 LDR   L 00000nmm#a2200000zcc4500
+003473485 001   L AC03481815
+003473485 003   L AT-OBV
+003473485 005   L 20020805160200.0
+003473485 007   L co#|||||||||||
+003473485 008   L 020730|1999####xxu########|########dan#u
+003473485 009   L AC03481815
+003473485 040   L $$aUBG$$bger$$dUBG$$erakwb
+003473485 041   L $$adan$$ager
+003473485 044   L $$cXD-US
+003473485 24500 L $$a<<The>> Rosetta Stone premium 1 - Dänisch$$beinfach Sprachen lernen ; mit dynamic immersion ; kompletter Sprachkurs für Anfänger$$nCD-ROM$$pDansk 1
+003473485 24631 L $$aDanish
+003473485 264 1 L $$aHarrisonburg$$bFairfield Language Technologies$$c©1999
+003473485 300   L $$a1 CD-ROM$$bfarb., mit Ton$$c12 cm$$eBenutzerhandbuch
+003473485 340   L $$aCD-ROM
+003473485 538   L $$iSystem requirements$$aCD-ROM drive 640x480x256; color display; 8MB free hard drive space; microphone for speech; recognition feature. Macintosh: 68040 CPU or better; Mac OS 7.0 or later; 8MB RAM (16 for PowerPC). Windows: 486DX CPU or better; Windows 3.1, 95, or NT 4.0; 8MB RAM (16 for Win95, 32 for NT); Windows compatible sound card
+003473485 77308 L $$w(AT-OBV)AC03426935$$q1
+003473485 9701  L $$c21
+003473485 9740s L $$F030$$Az|1dcr|||||||
+003473485 9740s L $$F050$$A||||||||d|||||
+003473485 9740s L $$F051$$A|||||||
+003473485 CAT   L $$aUBGHED$$b20$$c20020730$$lACC01$$h1313
+003473485 CAT   L $$aUBGHUE$$b20$$c20020805$$lACC01$$h1507
+003473485 CAT   L $$aUBGHUE$$b20$$c20020805$$lACC01$$h1528
+003473485 CAT   L $$aUBGHUE$$b20$$c20020805$$lACC01$$h1602
+009585231 LDR   L 00000nmm#a2200000#cc4500
+009585231 001   L AC10484273
+009585231 003   L AT-OBV
+009585231 005   L 20121115125900.0
+009585231 007   L co#|||||||||||
+009585231 008   L 121115|2005####gw#########|############u
+009585231 009   L AC10484273
+009585231 035   L $$a(DE-599)OBVAC10484273
+009585231 040   L $$aUBG$$bger$$erakwb
+009585231 044   L $$cXA-DE
+009585231 24500 L $$aTürkisch ohne Mühe$$bBuch + CD-ROM + 4 Audio-CDs ; Niveau A1 - B2 ; Sprachkurs ; Hören & verstehen, Aussprache üben, selbst formulieren, lesen & schreiben, Selbstkontrolle$$nCD-ROM
+009585231 264 1 L $$aNörvenich$$bASSiMiL$$c©2005
+009585231 300   L $$a1 CD-ROM$$c12 cm
+009585231 340   L $$aCD-ROM
+009585231 538   L $$iSystemvoraussetzungen$$aPC Pentium 233 MHz und höher mit 32 MB RAM, Windows 98 (mit Internet Explorer 5.5.), Windows ME/NT 4.0/2000/XP, Festplatte mit 30 MB frei, CD-ROM-Laufwerk, Soundkarte mit Lautsprecher, Mikrofon (optional), bildschimrauslösung midnestens 800 x 600 (SVGA)
+009585231 77308 L $$w(AT-OBV)AC09373920$$q[2]
+009585231 9701  L $$c21
+009585231 9740s L $$F030$$Aa|1ucr|||||||
+009585231 9740s L $$F050$$A||||||||d||001
+009585231 9740s L $$F051$$A||||||||
+009585231 CAT   L $$aUBGHUE$$b20$$c20121115$$lACC01$$h1259
