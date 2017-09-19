@@ -1,3 +1,5 @@
+import os
+
 def readFile(file):
     """Takes an aseq file as input and returns a list of strings (each string is one record)"""
     data = open(file).read()
@@ -11,7 +13,7 @@ class Record(object):
     def __init__(self, aseq_rec):
         self.record = {}
         self.id = None
-        self.sysnr = spacemacs company anaconda brokenaseq_rec[0:9]
+        self.sysnr = aseq_rec[0:9]
         record = self.read(aseq_rec)
 
     def read(self, aseq_rec):
@@ -26,7 +28,7 @@ class Record(object):
 
             if field["tag"] == "LDR" or field["tag"].startswith("00") == True:
                 field["ind"] = None
-                field["subfields"] = ("fixed", line[18:].rstrip())
+                field["subfields"] = [("fixed", line[18:].rstrip())]
             else:
                 field["ind"] = line[13:15].replace(" ", "#")
                 contents = line[20:].rstrip().split("$$")
@@ -45,3 +47,15 @@ class Record(object):
     def getRecord(self):
         """returns the whole record as dictionary"""
         return self.record
+
+    def getFieldList(self):
+        """returns a sorted list of fields."""
+        d = self.record.copy().keys()
+        print(d)
+        flist = ["LDR"]
+        for key in sorted(d):
+            if key == "LDR":
+                continue
+            else:
+                flist.append(key)
+        return flist
