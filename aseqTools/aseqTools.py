@@ -48,14 +48,14 @@ class Record(object):
         """returns the whole record as dictionary"""
         return self.record
 
-    def getFieldList(self):
+    def getFields(self):
         """returns a sorted list of fields."""
         d = self.record.copy().keys()
         print(d)
-        flist = ["LDR"]
+        flist = [self.record["LDR"]]
         for key in sorted(d):
             if key == "LDR":
                 continue
             else:
-                flist.append(key)
+                flist.append(self.record[key])
         return flist
