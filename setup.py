@@ -10,7 +10,7 @@ config = {
     "download_url": "Where to download it.",
     "author_email": "stefan.schuh@uni-graz.at",
     "version": "0.1",
-    "install_requires": ["pytest", "xlsxwriter"],
+    "install_requires": ["pytest", "xlsxwriter", "easygui"],
     "packages": ["aseqTools"],
     "scripts": ["bin/aseq2xlsx.py"],
     "name": "aseqTools"
