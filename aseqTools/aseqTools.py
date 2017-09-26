@@ -2,7 +2,7 @@ import os
 
 def readFile(file):
     """Takes an aseq file as input and returns a list of strings (each string is one record)"""
-    data = open(file).read()
+    data = open(file, encoding="utf-8").read()
     recs = data.split("LDR")
     out = [recs[i - 1][-10:] + "LDR" + recs[i][:-10].rstrip() for i in range(1, len(recs) - 1)]
     out.append(recs[-2][-10:] + "LDR" + recs[-1].rstrip())

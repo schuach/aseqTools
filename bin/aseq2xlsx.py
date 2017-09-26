@@ -21,7 +21,7 @@ for record in at.readFile(infile):
     tag_format = workbook.add_format({ 'valign': "top",
                                     'bold': True,
                                     'underline': True,
-                                    'font_color': "red"})
+                                    'font_color': "blue"})
     ind_format = workbook.add_format({ 'valign': "top",
                                     'bold': True,
                                     'underline': True,
@@ -45,6 +45,8 @@ for record in at.readFile(infile):
     worksheet.write(0, 3, "Inhalt", header_format)
 
     for field in fields:
+        if field["tag"] == "CAT":
+            continue
         merge_range = len(field["subfields"]) - 1
         if field["subfields"][0][0]  == "fixed":
             worksheet.write(row, 0, field["tag"], tag_format)
