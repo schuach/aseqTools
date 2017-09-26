@@ -1,0 +1,23 @@
+* ASEQ-Tools
+
+Eine Sammlung von Werkzeugen, die aseq-Dateien manipulieren. WIP, derzeit
+benutzbar: =aseq2xlsx= (erstellt schöne xlsx-Dateien aus aseq-Files)
+
+** Installation
+   1. Python installieren
+      1. [[https://www.python.org/ftp/python/3.6.2/python-3.6.2.exe][Installationsdatei]] herunterladen und ausführen
+      2. Unterwegs "Add Python 3.6 to PATH" anklicken
+   2. Dieses Repositorium herunterladen und entpacken:
+      - Auf dieser Seite auf "Clone or download" und dann "Download ZIP" klicken
+      - Das heruntergeladene ZIP-Archiv an einem Ort der Wahl entpacken
+   3. Im entpackten Ordner auf "install.bat" doppelklicken
+   4. Fertig!
+
+** Verwendung
+   - Einfach "aseq2xlsx.bat" doppelklicken
+   - Die Quelldatei auswählen
+   - Den Zielordner auswählen
+     - In diesen Ordner kommen die fertigen Dateien. Es ist empfehlenswert,
+       vorab einen eigenen Ordner dafür zu erstellen, weil je nach Quelldatei
+       recht viele Ausgabedateien entstehen können.
+   - Das wars!
