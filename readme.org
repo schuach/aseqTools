@@ -7,8 +7,8 @@ benutzbar: =aseq2xlsx= (erstellt schöne xlsx-Dateien aus aseq-Files)
    1. Python installieren
       1. [[https://www.python.org/ftp/python/3.6.2/python-3.6.2.exe][Installationsdatei]] herunterladen und ausführen
       2. Das Häkchen "Install launcher for all users (recommended)" entfernen
-	    3. Das Häkchen "Add Python 3.6 to PATH" setzen
-	    4. "Install now" anklicken und den Anweisungen folgen
+      3. Das Häkchen "Add Python 3.6 to PATH" setzen
+      4. "Install now" anklicken und den Anweisungen folgen
    2. Dieses Repositorium herunterladen und entpacken:
       - Auf dieser Seite auf "Clone or download" und dann "Download ZIP" klicken
       - Das heruntergeladene ZIP-Archiv an einem Ort der Wahl entpacken
