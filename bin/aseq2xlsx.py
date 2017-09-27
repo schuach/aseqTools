@@ -1,15 +1,27 @@
 import aseqTools.aseqTools as at
 import xlsxwriter
 import easygui as g
+import os
 
 infile = g.fileopenbox(msg="Bitte Quelldatei wählen", title="Quelldatei")
 outdir = g.diropenbox(msg="Bitte Zielverzeichnis wählen", title="Zielverzeichnis")
 
+# das Zielverzeichnis leeren
+# for file in os.listdir(outdir):
+#     os.remove(os.path.join(outdir, file))
 
 for record in at.readFile(infile):
     record = at.Record(record)
+
+    # compose the filename
     acnr = record.getField("009")["subfields"][0][1]
-    workbook = xlsxwriter.Workbook(f"{outdir}/{acnr}.xlsx")
+    title = record.getField("245")["subfields"][0][1].replace(" ", "_").replace("<", "").replace(">", "")
+    if len(title) > 30:
+        fname = title[:30] + f"({acnr})"
+    else:
+        fname = title + f"({acnr})"
+
+    workbook = xlsxwriter.Workbook(f"{outdir}/{fname}.xlsx")
 
     # create a worksheet and set the layout
     worksheet = workbook.add_worksheet()
@@ -63,5 +75,8 @@ for record in at.readFile(infile):
                 worksheet.write(row, 2, subfield[0], subfield_format)
                 worksheet.write(row, 3, subfield[1], content_format)
                 row += 1
-
+    print(f"Schreibe {fname}")
     workbook.close()
+
+print("\nVerarbeitung abgeschlossen.")
+input("Drücken Sie ENTER um dieses Fenster zu schließen.")

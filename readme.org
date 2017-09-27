@@ -22,4 +22,6 @@ benutzbar: =aseq2xlsx= (erstellt schöne xlsx-Dateien aus aseq-Files)
      - In diesen Ordner kommen die fertigen Dateien. Es ist empfehlenswert,
        vorab einen eigenen Ordner dafür zu erstellen, weil je nach Quelldatei
        recht viele Ausgabedateien entstehen können.
+     - Wenn im Zielordner schon Dateien mit dem gleichen Namen vorhanden sind,
+       werden diese ohne Rückfrage überschrieben!
    - Das wars!

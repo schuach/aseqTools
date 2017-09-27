@@ -51,7 +51,6 @@ class Record(object):
     def getFields(self):
         """returns a sorted list of fields."""
         d = self.record.copy().keys()
-        print(d)
         flist = [self.record["LDR"]]
         for key in sorted(d):
             if key == "LDR":
