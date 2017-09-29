@@ -31,21 +31,26 @@ for record in at.readFile(infile):
 
     row = 1
     tag_format = workbook.add_format({ 'valign': "top",
-                                    'bold': True,
-                                    'underline': True,
-                                    'font_color': "blue"})
+                                       'bold': True,
+                                       'underline': True,
+                                       'font_name': "Courier New",
+                                       'font_color': "blue"})
     ind_format = workbook.add_format({ 'valign': "top",
-                                    'bold': True,
-                                    'underline': True,
-                                    'font_color': "blue"})
+                                       'bold': True,
+                                       'underline': True,
+                                       'font_name': "Courier New",
+                                       'font_color': "blue"})
 
     subfield_format = workbook.add_format({ 'valign': "top",
                                     'bold': True,
+                                    'font_name': "Courier New",
                                     'font_color': "red"})
 
-    header_format = workbook.add_format({'bold': True})
+    header_format = workbook.add_format({'bold': True,
+                                        'font_name': "Courier New"})
 
-    content_format = workbook.add_format({'valign': "top"})
+    content_format = workbook.add_format({'valign': "top",
+                                          'font_name': "Courier New",})
 
     # aseq = at.readFile("./tests/testinput_single_record.seq")
     fields = record.getFields()
@@ -60,6 +65,9 @@ for record in at.readFile(infile):
         if field["tag"] == "CAT":
             continue
         merge_range = len(field["subfields"]) - 1
+        if field["tag"] in ["LDR", "006", "007", "008"]:
+            worksheet.write(row, 3, "0....5....10...15...20...25...30...35...40", content_format)
+            row += 1
         if field["subfields"][0][0]  == "fixed":
             worksheet.write(row, 0, field["tag"], tag_format)
             worksheet.write(row, 3, field["subfields"][0][1], content_format)
