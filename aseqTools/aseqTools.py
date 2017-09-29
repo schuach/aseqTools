@@ -17,14 +17,17 @@ class Record(object):
         record = self.read(aseq_rec)
 
     def read(self, aseq_rec):
-        """Takes one record in aseq-formahttps://github.com/syl20bnr/spacemacs/issues/3299t, and populates the Record object"""
+        """Takes one record in aseq-format, and populates the Record object"""
         record = {}
+        counts = {}
         fields = aseq_rec.split("\n")
 
         for line in fields:
             field = {}
             subfields = []
-            field["tag"] = line[10:13]
+            tag = line[10:13]
+
+            field["tag"] = tag
 
             if field["tag"] == "LDR" or field["tag"].startswith("00") == True:
                 field["ind"] = None
@@ -36,7 +39,12 @@ class Record(object):
                     subfields.append(("$$" + subfield[0], subfield[1:]))
                 field["subfields"] = subfields
 
-            self.record[field["tag"]] = field
+            if tag in counts.keys():
+                counts[tag] += 1
+                self.record[tag + str(counts[tag]).zfill(3)] = field
+            else:
+                counts[tag] = 0
+                self.record[tag + str(counts[tag]).zfill(3)] = field
 
         return record
 
@@ -51,9 +59,9 @@ class Record(object):
     def getFields(self):
         """returns a sorted list of fields."""
         d = self.record.copy().keys()
-        flist = [self.record["LDR"]]
+        flist = [self.record["LDR000"]]
         for key in sorted(d):
-            if key == "LDR":
+            if key == "LDR000":
                 continue
             else:
                 flist.append(self.record[key])
