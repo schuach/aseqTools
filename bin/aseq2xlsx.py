@@ -15,7 +15,7 @@ for record in at.readFile(infile):
 
     # compose the filename
     acnr = record.getField("009000")["subfields"][0][1]
-    title = record.getField("245000")["subfields"][0][1].replace(" ", "_").replace("<", "").replace(">", "")
+    title = record.getField("245000")["subfields"][0][1].replace(" ", "_").replace("<", "").replace(">", "").replace("\"", "").replace("/", "")
     if len(title) > 30:
         fname = title[:30] + f"({acnr})"
     else:
