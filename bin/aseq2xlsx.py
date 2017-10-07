@@ -63,20 +63,36 @@ for record in at.readFile(infile):
 
     for field in fields:
         if field["tag"] == "CAT":
+            # don't process CAT-Fields
+            continue
+        if field["tag"] == "CAT":
             continue
         merge_range = len(field["subfields"]) - 1
         if field["tag"] in ["LDR", "006", "007", "008"]:
             worksheet.write(row, 3, "0....5....10...15...20...25...30...35...40", content_format)
             row += 1
         if field["subfields"][0][0]  == "fixed":
+            if field["tag"] == "001":
+                # fakes an MMS ID
+                outstr = "1324567890" + field["subfields"][0][1][3:]
+            else:
+                outstr = field["subfields"][0][1]
             worksheet.write(row, 0, field["tag"], tag_format)
-            worksheet.write(row, 3, field["subfields"][0][1], content_format)
+            worksheet.write(row, 3, outstr, content_format)
             row += 1
         else:
             if merge_range > 0:
                 worksheet.merge_range(row, 0, row + merge_range, 0, field["tag"], tag_format)
                 worksheet.merge_range(row, 1, row + merge_range, 1, field["ind"], ind_format)
             else:
+                if field["tag"] == "035":
+                    # inserts the 035 with (AT-OBV)
+                    oustr = "(AT-OBV)" + field["subfields"][0][1][11:]
+                    worksheet.write(row, 0, field["tag"], tag_format)
+                    worksheet.write(row, 1, field["ind"], ind_format)
+                    worksheet.write(row, 2, subfield[0], subfield_format)
+                    worksheet.write(row, 3, oustr, content_format)
+                    row += 1
                 worksheet.write(row, 0, field["tag"], tag_format)
                 worksheet.write(row, 1, field["ind"], ind_format)
             for subfield in field["subfields"]:
