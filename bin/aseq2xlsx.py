@@ -90,7 +90,7 @@ for record in at.readFile(infile):
                     oustr = "(AT-OBV)" + field["subfields"][0][1][11:]
                     worksheet.write(row, 0, field["tag"], tag_format)
                     worksheet.write(row, 1, field["ind"], ind_format)
-                    worksheet.write(row, 2, subfield[0], subfield_format)
+                    worksheet.write(row, 2, field["subfields"][0][0], subfield_format)
                     worksheet.write(row, 3, oustr, content_format)
                     row += 1
                 worksheet.write(row, 0, field["tag"], tag_format)
