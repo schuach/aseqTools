@@ -1,0 +1,9 @@
+setup.py
+aseqTools/__init__.py
+aseqTools/aseqTools.py
+aseqTools.egg-info/PKG-INFO
+aseqTools.egg-info/SOURCES.txt
+aseqTools.egg-info/dependency_links.txt
+aseqTools.egg-info/requires.txt
+aseqTools.egg-info/top_level.txt
+bin/aseq2xlsx.py
